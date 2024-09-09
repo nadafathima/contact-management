@@ -1,0 +1,24 @@
+/* App.css or your global CSS file */
+
+.navbar {
+    border-radius: 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffd700; /* Gold color for hover effect */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #ffffff; /* White color for active link */
+    background-color: #004d40; /* Dark green background for active link */
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,56 @@
+.table-responsive {
+    margin-top: 20px;
+  }
+  
+  .table th, 
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .form-control {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .modal-header, 
+  .modal-footer {
+    justify-content: center;
+  }
+  
+  .modal-footer .btn {
+    min-width: 100px;
+  }
+  
+  .btn-outline-primary,
+  .btn-outline-danger {
+    min-width: 40px;
+    padding: 5px;
+  }
+  
+  .toast-container {
+    top: 80px;
+    right: 20px;
+  }
+  
+  @media (max-width: 576px) {
+    .table-responsive {
+      margin-bottom: 30px;
+    }
+  
+    .table img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .btn-outline-primary, 
+    .btn-outline-danger {
+      font-size: 14px;
+    }
+  }
+  

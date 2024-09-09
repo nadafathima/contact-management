@@ -1,0 +1,39 @@
+/* Intro Section */
+.intro-section {
+  height: 60vh;
+  margin-left: 15px;
+}
+
+.intro h2{
+    padding-top: 60px;
+
+}
+
+.intro-text {
+  margin-left: 15px;
+}
+
+.intro-description {
+  text-align: justify;
+}
+
+.intro-image img {
+  height: 60vh;
+  width: 100%;
+}
+
+/* Features Section */
+.features-section {
+  background-color: #f8f9fa; /* Light gray background for contrast */
+}
+
+.primary {
+  color: #007BFF; /* Primary color for headings */
+}
+
+@media (max-width: 768px) {
+  .features-section .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}

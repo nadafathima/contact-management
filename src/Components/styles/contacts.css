@@ -1,0 +1,30 @@
+/* contacts.css */
+
+.category-container {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  cursor: move;
+}
+
+.contact-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

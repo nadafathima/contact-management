@@ -1,0 +1,78 @@
+/* General styles for the category card */
+.category-card {
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px); /* Elevate card on hover */
+  }
+  
+  /* Header styling for the category */
+  .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 10px;
+  }
+  
+  .category-header h3 {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin: 0;
+  }
+  
+  .category-header .btn {
+    background-color: #dc3545; /* Red delete button */
+    color: white;
+  }
+  
+  .category-header .btn i {
+    font-size: 1.2rem;
+  }
+  
+  /* Contact list inside a category */
+  .category-contacts {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between contact cards */
+  }
+  
+  .category-contacts p {
+    color: #6c757d; /* Muted text for "No contacts" */
+    font-style: italic;
+  }
+  
+  /* Contact card (assumed to be styled in ContactList component) */
+  .contact-card {
+    flex: 1 1 calc(33.333% - 10px); /* Responsive grid layout for contacts */
+    min-width: 200px;
+    max-width: 250px;
+  }
+  
+  /* Responsive design: Stack categories on smaller screens */
+  @media (max-width: 768px) {
+    .category-card {
+      padding: 10px;
+    }
+  
+    .category-header h3 {
+      font-size: 1.2rem;
+    }
+  
+    .category-contacts {
+      flex-direction: column;
+    }
+  
+    .contact-card {
+      flex: 1 1 100%; /* Full width for smaller screens */
+      max-width: none;
+    }
+  }
+  

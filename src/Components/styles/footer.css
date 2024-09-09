@@ -1,0 +1,32 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f8f9fa; /* Light grey background */
+    color: #6c757d; /* Grey text color */
+    border-top: 1px solid #e9ecef; /* Light border at the top */
+    padding-top: 1rem; /* Padding at the top */
+    height: 60px; /* Set the height to match the header */
+    display: flex;
+    align-items: center; /* Center align content vertically */
+    justify-content: center; /* Center align content horizontally */
+  }
+  
+  .footer-content {
+    font-size: 0.875rem; /* Slightly smaller text */
+  }
+  
+  .footer-content a {
+    color: #007bff; /* Bootstrap primary color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  @media (max-width: 576px) {
+    .footer-content {
+      font-size: 0.75rem; /* Smaller text on mobile */
+    }
+  }
+  
